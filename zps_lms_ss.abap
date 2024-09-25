@@ -22,7 +22,7 @@ SELECTION-SCREEN END OF BLOCK b3.
 
 SELECTION-SCREEN BEGIN OF SCREEN 2000 TITLE TEXT-001.
   PARAMETERS: p_hrid  TYPE char10,                          " HR User ID
-              p_hrpwd TYPE char20 MODIF ID pwd OBLIGATORY. " Password field
+              p_hrpwd TYPE char20 OBLIGATORY. " Password field
 
   SELECTION-SCREEN COMMENT /1(30) TEXT-001 MODIF ID pwd.
 SELECTION-SCREEN END OF SCREEN 2000.
